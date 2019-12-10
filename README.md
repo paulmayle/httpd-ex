@@ -8,7 +8,7 @@ The application serves a single static html page via httpd.
 To build and run the application:
 
 ```
-$ s2i build https://github.com/sclorg/httpd-ex centos/httpd-24-centos7 myhttpdimage
+$ s2i build https://github.com/paulmayle/httpd-ex centos/httpd-24-centos7 myhttpdimage
 $ docker run -p 8080:8080 myhttpdimage
 $ # browse to http://localhost:8080
 ```
